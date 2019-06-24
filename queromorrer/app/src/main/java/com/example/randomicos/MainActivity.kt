@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     fun random(): Int {
         return Random.nextInt(30)
     }
-//"Se cair levante se deslizar se segure mas nunca pence em desistir por que o quanto mas amarga for a sua queda mas doce sera a sua vitoria",
     fun texto(): String {
         var text = arrayOf("Não desista. Geralmente é a última chave no chaveiro que abre a porta",
             "Então não desista, sorria. Você é mais forte do que pensa e será mais feliz do que imagina",
